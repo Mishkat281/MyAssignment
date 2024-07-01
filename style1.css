@@ -1,0 +1,26 @@
+h3{
+    color: darkorchid;
+    text-align: center;
+}
+.box
+{
+    background-color: darkblue;
+}
+.colore
+{
+    color: darkred;
+    background-color: darkgray;
+}
+.bord
+{
+    color: darkgreen;
+}
+h1
+{
+    text-align: center;
+    background-color: darkorange;
+}
+.styls
+{
+    text-decoration: none;
+}

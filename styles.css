@@ -1,0 +1,15 @@
+.btn-light{
+    color:blue;
+    background-color: azure;
+    border: 1px solid blue;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+}
+.btn-light:hover{
+    color: white;
+    background-color: blue;
+}
+h2{
+    font-size: 45px;
+}

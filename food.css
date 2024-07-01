@@ -1,0 +1,202 @@
+.carousel-img {
+    height: 850px; 
+    object-fit: cover; 
+  }
+  /* Custom styles for Foodie navbar */
+.navbar {
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Example: Using Google Font 'Roboto' */
+    background-color: #ffc107;
+}
+
+.navbar-brand {
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.navbar-nav .nav-link {
+  
+    font-size: 30px;
+    margin-left: 250px;
+    transition: color 0.3s ease;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+ 
+ 
+}
+.nav-item a:hover{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.navbar-nav .nav-link:hover {
+    color: #e7070779; 
+    border-radius: 50px solid black;
+    border: 2px solid black;
+    font-size: 48px;
+    background-color: bisque;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Highlight active link */
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba(255, 193, 7, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22" /%3e%3c/svg%3e');
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba(255, 255, 255, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22" /%3e%3c/svg%3e');
+}
+
+
+.btn-outline-success {
+    color: #28a745; /* Button text color */
+    border-color: #28a745; /* Button border color */
+}
+
+.btn-outline-success:hover {
+}
+.carousel-item {
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 55px;
+}
+.carousel-caption h5{
+    font-size:85px;
+    color:white;
+}
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #28a745;
+    padding-top: 50px;
+   
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Content container */
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form container */
+  .content form {
+    margin-top: 20px;
+  }
+  
+  /* Form inputs */
+  .content form input[type="text"],
+  .content form input[type="email"],
+  .content form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit button */
+  .content form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Submit button on hover */
+  .content form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form labels */
+  .content form label {
+    font-weight: bold;
+  }
+  
+  /* Form message textarea */
+  .content form textarea {
+    height: 150px;
+  }
+/* Style for footer */
+footer {
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #333; /* Dark text color */
+    font-size: 25px;
+}
+
+/* Style for footer links */
+footer a {
+    color: #6c757d; /* Dark gray link color */
+}
+
+footer a:hover {
+    color: #007bff; /* Blue link color on hover */
+}
+
+/* Style for footer headings */
+footer h5 {
+    color: #495057; /* Dark gray heading color */
+}
+
+/* Style for newsletter input and button */
+footer input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+}
+
+footer button[type="submit"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+
+}
+
+footer button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Style for copyright and social icons */
+footer .border-top {
+    border-top: 1px solid #dee2e6; /* Light gray border */
+}
+
+footer .list-unstyled li {
+    margin-right: 10px; /* Space between social icons */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+    }
+}
+  
+
